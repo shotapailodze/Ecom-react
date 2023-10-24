@@ -237,7 +237,7 @@ const index = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+            <ResumeButton href='/public/CV.pdf' target='_blank'>Check Resume</ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer>
              <Image src={HeroImg} alt='Hero' />
